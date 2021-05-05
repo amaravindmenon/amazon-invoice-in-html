@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Amazon</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .invoice-box {
+            max-width: 800px;
+            margin: auto;
+            border: 1px solid #eee;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            height: 140vh;
+            padding: 30px;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+            color: #556;
+        }
+        
+        .first {
+            display: flex;
+        }
+        
+        .amimage>img {
+            height: 4em;
+            width: 15em;
+            padding-left: 4em;
+        }
+        
+        .amimage {
+            width: 50%;
+            align-content: center;
+        }
+        
+        .taxhead {
+            width: 50%;
+            text-align: right;
+            padding-right: 3em;
+        }
+        
+        .taxhead>span {
+            font-weight: bold;
+        }
+        
+        .second {
+            display: flex;
+        }
+        
+        .sold {
+            width: 50%;
+            padding-left: 3em;
+        }
+        
+        .sold>span {
+            font-weight: bold;
+        }
+        
+        .billaddress {
+            width: 50%;
+            text-align: right;
+            padding-right: 1em;
+        }
+        
+        .billaddress>span {
+            font-weight: bold;
+        }
+        
+        .third {
+            display: flex;
+        }
+        
+        .pan {
+            width: 50%;
+            padding-left: 3em;
+        }
+        
+        .pan>span {
+            font-weight: bold;
+        }
+        
+        .shipping {
+            width: 50%;
+            text-align: right;
+            padding-right: 1em;
+        }
+        
+        .shipping>span {
+            font-weight: bold;
+        }
+        
+        .fourth {
+            display: flex;
+        }
+        
+        .order {
+            width: 50%;
+            padding-left: 3em;
+        }
+        
+        .order>span {
+            font-weight: bold;
+        }
+        
+        .invoice {
+            width: 50%;
+            text-align: right;
+            padding-right: 1em;
+        }
+        
+        .invoice>span {
+            font-weight: bold;
+        }
+        
+        th {
+            border: 1px solid black;
+            background-color: #dddddd;
+        }
+        
+        td {
+            border-top: none;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+        
+        table {
+            margin-left: 3em;
+            margin-right: 1em;
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            border: 1px solid black;
+            text-align: left;
+        }
+        
+        .sign {
+            height: 3em;
+            width: 13em;
+        }
+        
+        .end {
+            font-size: 0.5em;
+            text-align: center;
+            padding: 14em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="invoice-box">
+        <div class="first">
+            <div class="amimage">
+                <img src="amazon.png" alt="" />
+            </div>
+            <div class="taxhead">
+                <span>Tax Invoice/Bill of Supply/Cash Memo</span><br /> (Original for Recipient)
+            </div>
+        </div>
+        <br /><br /><br />
+        <div class="second">
+            <div class="sold">
+                <span>Sold By :</span><br /> Appario Retail Private Ltd<br /> * Rect/Killa Nos. 38//8/2 min, 192//22/1,196//2/1/1, <br /> 37//15/1, 15/2,, Adjacent to Starex School, Village <br /> - Binola, National Highway -8, Tehsil - Manesar <br />                Gurgaon, Haryana, 122413 <br /> IN
+            </div>
+            <div class="billaddress">
+                <span>Billing Address :</span> <br /> Rakesh Kumar <br /> H3/ Block-A, Karol Bagh, New Delhi-20 <br /> New Delhi <br /> IN
+            </div>
+        </div>
+        <div class="third">
+            <div class="pan">
+                <br /><br />
+                <span>PAN No:</span> AALCA0171E<br />
+                <span>GST Registration No:</span> 06AALCA0171E1Z3
+            </div>
+            <div class="shipping">
+                <span> Shipping Address :</span><br /> Rakesh Kumar<br /> Rakesh Kumar<br /> H3/ Block-A, Karol Bagh, New Delhi-20 <br /> New Delhi <br /> IN
+            </div>
+        </div>
+        <div class="fourth">
+            <div class="order">
+                <span>Order Number:</span> 407-6836128-3267654 <br />
+                <span>Order Date:</span> 22.01.2019
+            </div>
+            <div class="invoice">
+                <span>Invoice Number :</span> DEL5-1451435<br />
+                <span>Invoice Details :</span> HR-DEL5-1034-1753<br />
+                <span>Invoice Date :</span> 22.01.2019<br />
+            </div>
+        </div>
+        <br />
+        <div class="five">
+            <table>
+                <tr>
+                    <th>SL No.</th>
+                    <th>Description</th>
+                    <th>Unit Price</th>
+                    <th>Discount</th>
+                    <th>QTY</th>
+                    <th>Net Amount</th>
+                    <th>Tax Rate</th>
+                    <th>Tax Type</th>
+                    <th>Tax Amount</th>
+                    <th>Total Amount</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        boAt Stone 200 Portable Bluetooth Speakers (Orange) | B01JIP4BPW ( B01JIP4BPW ) HSN:8518
+                    </td>
+                    <td>₹846.61</td>
+                    <td>₹0.00</td>
+                    <td>1</td>
+                    <td>₹846.61</td>
+                    <td>18%</td>
+                    <td>IGST</td>
+                    <td>₹152.39</td>
+                    <td>₹999.00</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Shipping Charges</td>
+                    <td>₹33.90</td>
+                    <td>-₹33.90</td>
+                    <td></td>
+                    <td>₹0.00</td>
+                    <td>18%</td>
+                    <td>IGST</td>
+                    <td>₹0.00</td>
+                    <td>₹0.00</td>
+                </tr>
+            </table>
+            <table>
+                <tr width="100%">
+                    <td style="padding-right: 35.7em">Total</td>
+                    <td style="padding-right: 0.25em">₹152.39</td>
+                    <td style="padding-right: 0.25em">₹999.00</td>
+                </tr>
+                <table>
+                    <td style="padding-right: 29em; font-weight: bold">
+                        Amount in Words:
+                        <br /> Nine Hundred And Ninety-nine only
+                    </td>
+                </table>
+                <table>
+                    <td style="padding-left: 31.3em; font-weight: bold; text-align: right">
+                        For Appario Retail Private Ltd:
+                        <br />
+                        <img src="sign.jpeg" alt="" class="sign" /> <br /> Authorized Signatory
+                    </td>
+                </table>
+            </table>
+        </div>
+        <div class="end">
+            *ASSPL-Amazon Seller Services Pvt. Ltd., ARIPL-Amazon Retail India Pvt. Ltd. (only where Amazon Retail India Pvt. Ltd. fulfillment center is co-located) Customers desirous of availing input GST credit are requested to create a Business account and purchase
+            on Amazon.in/business from Business eligible offers Please note that this invoice is not a demand for payment
+        </div>
+    </div>
+</body>
+
+</html>
